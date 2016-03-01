@@ -10,4 +10,8 @@ tags: hexo主题
 
 - [maupassant](https://github.com/tufu9441/maupassant-hexo): 这个主题是小土刀用的, 看着感觉还不错
 
-1. 在站点配置文件(_config.yml)中设置language的时候, 一定要注意后面的值是否有对应的主题language文件, 这些文件一半是在主题的language文件夹下. 就简体中文来说, next对应的主题文件是zh-Hans.yml , 但 maupassant对应的是 zh-CN.yml
+1. 在站点配置文件(_config.yml)中设置language的时候, 一定要注意后面的值是否有对应的主题language文件, 这些文件一半是在主题的language文件夹下. 就简体中文来说, next对应的主题文件是zh-Hans.yml, 但maupassant对应的是zh-CN.yml
+
+2. google搜索框对应的是站点配置文件中的url, 目前搜索hexo, 找不到相关的网页, 怀疑google还没有收录我的网页.
+
+3. [rss](https://github.com/hexojs/hexo-generator-feed)订阅: 按照官网的instruction, 加入到站点配置文件中.

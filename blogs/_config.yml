@@ -73,8 +73,8 @@ deploy:
   branch: master
 
 
-avatar: /images/1.jpg
-duoshuo_shortname: robot-lindayong
+# avatar: /images/1.jpg
+# duoshuo_shortname: robot-lindayong
 
 feed:
   type: atom
