@@ -9,7 +9,7 @@ description: this is a robot for lindayong
 author: Robot
 # language: zh-CN
 # timezone: Asia/Shanghai
-language:
+language: en
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
