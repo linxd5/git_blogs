@@ -86,6 +86,7 @@ feed:
 sitemap:
   path: sitemap.xml
 
+# the method below seems not work
 # plugins:
 # - hexo-generator-feed
 # - hexo-generator-sitemap
