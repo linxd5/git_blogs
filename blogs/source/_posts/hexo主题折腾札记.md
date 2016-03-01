@@ -16,3 +16,5 @@ categories: hexo
 2. google搜索框对应的是站点配置文件中的url, 目前搜索hexo, 找不到相关的网页, 怀疑google还没有收录我的网页.
 
 3. [rss](https://github.com/hexojs/hexo-generator-feed)订阅: 按照官网的instruction, 加入到站点配置文件中.
+
+4. [hexo使用攻略](http://ijiaober.github.io/categories/hexo/)
