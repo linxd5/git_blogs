@@ -3,21 +3,21 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Robot
+title: Robot's Blog
 subtitle:
-description: Hexo theme - Icarus
-author: PPOffice
-author_title: 'Web Developer & Designer'
+description:
+author: Robot
+author_title: 
 avatar: css/images/avatar.png
-location: 'Harbin, China'
-follow: https://github.com/ppoffice/
+location: 'Guangzhou, China'
+follow: https://github.com/linxd5/
 language: en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://ppoffice.github.io/hexo-theme-icarus
-root: /hexo-theme-icarus/
+url: http://linxd5.github.io
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
