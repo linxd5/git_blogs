@@ -1,0 +1,22 @@
+---
+title: {{ title }}
+date: {{ date }}
+tags:
+categories:
+---
+
+const DEFAULT_OPTS = {
+  src: "//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML",
+  config: {
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+      processEscapes: true
+    },
+    TeX: {
+      equationNumbers: {
+        autoNumber: "AMS"
+      }
+    }
+  }
+}

@@ -91,3 +91,8 @@ sitemap:
 # - hexo-generator-feed
 # - hexo-generator-sitemap
 
+
+# mathjax:
+#   src: custom_mathjax_source
+#   config:
+#     # MathJax config
