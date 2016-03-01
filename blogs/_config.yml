@@ -77,8 +77,16 @@ deploy:
 # avatar: /images/1.jpg
 # duoshuo_shortname: robot-lindayong
 
-feed:
-  type: atom
-  path: atom.xml
-  limit: 20
-  hub:
+# feed:
+#  type: atom
+#  path: atom.xml
+#  limit: 20
+#  hub:
+#
+# sitemap:
+#  path: sitemap.xml
+
+plugins:
+- hexo-generator-feed
+- hexo-generator-sitemap
+
