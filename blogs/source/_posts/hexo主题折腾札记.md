@@ -2,6 +2,7 @@
 title: hexo主题折腾炸鸡
 date: 2016-02-29 18:37:04
 tags: hexo主题
+categories: hexo
 ---
 
 

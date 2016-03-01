@@ -2,6 +2,7 @@
 title: 读书 & 思考
 date: 2016-02-29 18:04:09
 tags: 读书
+categories: reading
 description: 用书本填充生活的空隙
 ---
 
