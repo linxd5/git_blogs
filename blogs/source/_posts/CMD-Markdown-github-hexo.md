@@ -1,5 +1,5 @@
 ---
-title: CMD_Markdown_+_github_+_hexo
+title: CMD Markdown + github + hexo
 date: 2016-03-02 12:27:22
 tags: Markdown editor
 categories: Markdown editor
