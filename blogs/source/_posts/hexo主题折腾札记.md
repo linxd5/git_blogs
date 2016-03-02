@@ -8,8 +8,6 @@ description: 搞计算机的同学就是要不怕困难, 不怕折腾
 
 <!-- toc -->
 
-[toc]
-
 ### 第一阶段的折腾 (2016/02/29 ~ 2016/03/01)
 
 - [next](https://github.com/iissnan/hexo-theme-next):  这个主题star的人最多, 文档也最齐全, 只是大众的不一定符合我的口味
