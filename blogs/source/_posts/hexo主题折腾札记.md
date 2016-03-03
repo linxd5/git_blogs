@@ -8,7 +8,7 @@ description: 搞计算机的同学就是要不怕困难, 不怕折腾
 
 <!-- toc -->
 
-### 第一阶段的折腾 (2016/02/29 ~ 2016/03/01)
+## 第一阶段的折腾 (2016/02/29 ~ 2016/03/01)
 
 - [next](https://github.com/iissnan/hexo-theme-next):  这个主题star的人最多, 文档也最齐全, 只是大众的不一定符合我的口味
 
@@ -43,11 +43,11 @@ Simple inline $a = b + $c
 
 ----------------------------------------------------
 
-### 第二阶段的折腾: MathJax
+## 第二阶段的折腾: MathJax
 
 > 为了上面那条公式的显示, 我用了三个小时的时间, 耗尽心血啊!
 
-#### math-hexo
+### math-hexo
 
 hexo上显示数学公式的插件有两个: `hexo-renderer-mathjax`和`hexo-math`, 前者star的人比较少, 按文档的指示没有安装成功, 直接 `npm unistall hexo-renderer-mathjax`. 后者在google的时候发现两种版本:
 
@@ -61,7 +61,7 @@ hexo上显示数学公式的插件有两个: `hexo-renderer-mathjax`和`hexo-mat
 
 经过一番折腾之后, 我决定不再依赖hexo-math, 看看还有没有其他的办法 ?
 
-#### next mathjax
+### next mathjax
 
 折腾了很久之后, 突然想起hexo另一个主题`next`是支持mathjax的, 于是使用命令`grep mathjax -r .`扫到了这样的东西:
 ![](/images/4.png)
@@ -69,14 +69,14 @@ hexo上显示数学公式的插件有两个: `hexo-renderer-mathjax`和`hexo-mat
 
 ![](/images/5.png)
 
-#### 柳暗花明
+### 柳暗花明
 
 在我就快要放弃的时候, 黎明的曙光才珊珊到来 -- 我发现了这个[网站](http://t.tiany.me/2015/12/08/hexo-config/). 这里, 我参考了后面的那种[做法](https://github.com/tiany/maupassant-hexo/commit/fd8319fbf9a5f0936ad3348132e41d5c2d5a8215#diff-71257dade4be9be31d2d24b3c2d8a0ea), 往`layout/base.jade`的头部注入了两行JS代码, 然后创建`source/js/mathjax.js`文件来配置MathJax.
 
 这里需要注意的一点是, hexo出于对原创主题的保护, 在对某个文件进行修改后(例如layout/base.jade), 会把源文件命名为另一个文件(例如layout/base.jade~), 然后编译的时候发现某文件被修改的话, terminal就会报错. 解决方法也很简单, 直接把原来的文件(例如layout/base.jade~)删除掉就可以了.
 
 
-#### 再下一城
+### 再下一城
 
 收到了_debug的回复, 他说`讲道理只需要 npm install hexo-math --save 即可`.
 
@@ -92,18 +92,18 @@ hexo上显示数学公式的插件有两个: `hexo-renderer-mathjax`和`hexo-mat
 
 于是我在`站点配置文件`中加入了这些东西, 结果编译报错. 我在`站点配置文件`中加入这些东西, 编译没有报错, 数学公式正常显示.
 
-因此, 我认为之前`输入安装命令+修改配置文件`没能成功的关键在于错误地修改配置文件之后, 导致编译出错, 进而导致数学公式不能成功显示. 
+因此, 我认为之前`输入安装命令+修改配置文件`没能成功的关键在于错误地修改配置文件之后, 导致编译出错, 进而导致数学公式不能成功显示.
 
 
-#### TODO
+## TODO
 
-关于为什么要在配置文件中加入:
+- 关于为什么要在配置文件中加入:
 
 > plugins:
 - hexo-generator-feed
 - hexo-generator-sitemap
 - hexo-math
 
+- 对`maupassant`的TOC不大满意, 我期望能有这样的[TOC](http://luuman.github.io/2016/02/28/MobileRotate/).
 
-
-
+- 对一些有用的资源进行整理, 做成类似这样的[界面](http://luuman.github.io/FrontEndGuide/V1/index.html).
