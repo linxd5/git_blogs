@@ -74,3 +74,36 @@ hexo上显示数学公式的插件有两个: `hexo-renderer-mathjax`和`hexo-mat
 在我就快要放弃的时候, 黎明的曙光才珊珊到来 -- 我发现了这个[网站](http://t.tiany.me/2015/12/08/hexo-config/). 这里, 我参考了后面的那种[做法](https://github.com/tiany/maupassant-hexo/commit/fd8319fbf9a5f0936ad3348132e41d5c2d5a8215#diff-71257dade4be9be31d2d24b3c2d8a0ea), 往`layout/base.jade`的头部注入了两行JS代码, 然后创建`source/js/mathjax.js`文件来配置MathJax.
 
 这里需要注意的一点是, hexo出于对原创主题的保护, 在对某个文件进行修改后(例如layout/base.jade), 会把源文件命名为另一个文件(例如layout/base.jade~), 然后编译的时候发现某文件被修改的话, terminal就会报错. 解决方法也很简单, 直接把原来的文件(例如layout/base.jade~)删除掉就可以了.
+
+
+#### 再下一城
+
+收到了_debug的回复, 他说`讲道理只需要 npm install hexo-math --save 即可`.
+
+于是我hexo init了一个新的blogs, 然后在原始的主题`landscape`中进行了测试, 只敲上面那行命令, 而没有配置其它的东西, 之后竟然能够正常地显示数学公式了.
+然后我把主题改成`maupassant`, 仍然能够正常地显示数学公式.
+
+收到小土刀的回复, 他建议我在配置文件中加入:
+
+> plugins:
+- hexo-generator-feed
+- hexo-generator-sitemap
+- hexo-math
+
+于是我在`站点配置文件`中加入了这些东西, 结果编译报错. 我在`站点配置文件`中加入这些东西, 编译没有报错, 数学公式正常显示.
+
+因此, 我认为之前`输入安装命令+修改配置文件`没能成功的关键在于错误地修改配置文件之后, 导致编译出错, 进而导致数学公式不能成功显示. 
+
+
+#### TODO
+
+关于为什么要在配置文件中加入:
+
+> plugins:
+- hexo-generator-feed
+- hexo-generator-sitemap
+- hexo-math
+
+
+
+
