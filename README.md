@@ -9,3 +9,4 @@
 ### 2015年3月3号
 
 1. 机器学习之Regression
+2. Hexo TOC 折腾札记

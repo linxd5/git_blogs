@@ -3,7 +3,7 @@ title: hexo主题折腾炸鸡
 date: 2016-02-29 18:37:04
 tags: hexo主题
 categories: hexo
-description: 搞计算机的同学就是要不怕困难, 不怕折腾
+description:
 ---
 
 <!-- toc -->
