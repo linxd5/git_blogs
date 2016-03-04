@@ -3,7 +3,7 @@ title: Hexo_TOC_折腾札记
 date: 2016-03-04 11:21:31
 tags: hexo
 categories: hexo
-description:
+description: 想不明白, 自己为什么要这么折腾, 为什么不好好看书, 好好写毕业论文. 或许是失落时的一种逃避吧, 人总要找点事情让自己忙起来.
 ---
 
 
